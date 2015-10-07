@@ -1,0 +1,10 @@
+{
+  id: 'jquery-regex'
+  core: '2.0.0'
+  main:
+    js: 'main.coffee'
+    css: null
+  name: 'jQuery Regex'
+  type: 'library'
+  version: '1.3.0'
+}
