@@ -14,10 +14,10 @@ dobi.regex =
     (?!.*([.])\1)     # prevent duplicate period character
     [^.\s]            # cannot start with a period
     [^@\s]+           # any character except @
-    [^@.\s]            # last character before @ cannot be a period
+    [^@.\s]           # last character before @ cannot be a period
     @                 # @ symbol
-    [^\s@.]+           # one or more non-space or @ symbol
-    \.                 # a period
+    [^\s@.]+          # one or more non-space or @ symbol
+    \.                # a period
     [^\s@]+           # one or more non-space or @ symbol
     $                 # end of line
   ///
