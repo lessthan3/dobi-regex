@@ -4,11 +4,13 @@ A powerful regular expression toolkit for front-end web developers.
 
 ### Usage
 
-**Regular Expression Access**
-All regular expressions can be accessed by passing in the key of your desired test to `dobi.`
+**Regular Expression Access**  
+`dobi.regex.hex`  
+`dobi.regex.youtube_video`  
+`dobi.regex.url`  
 
-**String Testing**
-`dobi.regex.is(<string>).a(<regexp key>)`
+**String Testing**  
+`dobi.regex.is(<string>).a(<regexp key>)`  
 `dobi.regex.is(<string>).an(<regexp key>)`
 
 ##### Simple Examples
