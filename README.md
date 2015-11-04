@@ -12,6 +12,8 @@ A powerful regular expression toolkit for front-end web developers.
 **String Testing**  
 `dobi.regex.is(<string>).a(<regexp key>)`  
 `dobi.regex.is(<string>).an(<regexp key>)`
+`dobi.regex.is(<string>, <regexp key>)`
+
 
 ##### Simple Examples
 ```js
@@ -29,7 +31,7 @@ var is_hex = dobi.regex.is('#FFFFFF').a.('hex'); // returns true
 // get twitter_status regular expression
 var twitter_status = "http://twitter.com/#!/allWPthemes/status/2040410213974016";
 var twitter_regexp = dobi.regex.twitter_status;
-var twitter_id = twitter_regexp.exec(status)
+var status_id = twitter_regexp.exec(status)[4];
 ```
 
 ### Regular Expression Map
