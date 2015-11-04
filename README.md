@@ -19,7 +19,7 @@ A powerful regular expression toolkit for front-end web developers.
 ```js
 // grab a youtube video id
 var youtube_url = "https://www.youtube.com/watch?v=SLjQ1hHZPMU";
-var youtube_video_id = dobi.regex.youtube_video.exec(youtube_url)[4];
+var youtube_video_id = dobi.regex.youtube_video.exec(youtube_url)[4]; // returns "SLjQ1hHZPMU"
 
 // check to see if string is an email
 var invalid_email = "invalid_email@domain";
@@ -27,11 +27,6 @@ var is_email = dobi.regex.is(invalid_email).an.('email'); // returns false
 
 // check to see if a hex is valid
 var is_hex = dobi.regex.is('#FFFFFF').a.('hex'); // returns true
-
-// get twitter_status regular expression
-var twitter_status = "http://twitter.com/#!/allWPthemes/status/2040410213974016";
-var twitter_regexp = dobi.regex.twitter_status;
-var status_id = twitter_regexp.exec(status)[4];
 ```
 
 ### Regular Expression Map
