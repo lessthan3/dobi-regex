@@ -11,7 +11,7 @@ A powerful regular expression toolkit for front-end web developers.
 
 **String Testing**  
 `dobi.regex.is(<string>).a(<regexp key>)`  
-`dobi.regex.is(<string>).an(<regexp key>)`
+`dobi.regex.is(<string>).an(<regexp key>)`  
 `dobi.regex.is(<string>, <regexp key>)`
 
 
